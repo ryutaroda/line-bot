@@ -80,13 +80,7 @@ class LineBotController extends Controller
                 $lineBot->replyText($replyToken, $replyText);
                 continue;
             }
-//            $replyText = '';
-//            foreach($gurunaviResponse['rest'] as $restaurant) {
-//                 $replyText.=
-//                     $restaurant['name']."\n".
-//                     $restaurant['url']."\n".
-//                     "\n";
-//            }
+
 
             $bubbles = [];
             foreach($gurunaviResponse['rest'] as $restaurant){
